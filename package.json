@@ -1,20 +1,23 @@
 {
-  "name": "coba-google-gen-ai",
+  "name": "gemini-ai-sandbox",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/joestarindo/coba-google-gen-ai.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/joestarindo/coba-google-gen-ai/issues"
+  "description": "",
+  "dependencies": {
+    "@google/genai": "^1.6.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "multer": "^2.0.1"
   },
-  "homepage": "https://github.com/joestarindo/coba-google-gen-ai#readme"
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
